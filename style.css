@@ -152,6 +152,7 @@
     height: 100%;
     display: flex;
     align-items: center;
+    margin: 7px;
 }
 
 .all i{
@@ -160,4 +161,14 @@
 
 .all p{
     font-weight: bold;
+}
+
+
+.hero-section{
+    height: 80vh;
+    width: 100vw;
+    background-size: contain;
+    background-image: url("background1.jpg");
+    background-repeat:no-repeat;
+
 }
