@@ -136,3 +136,28 @@
 .cart-icon i{
     font-size: 35px;
 }
+
+
+.panel{
+    height: 39px;
+    background-color: #232F3E;
+    display: flex;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+}
+
+.panel div{
+    padding: 0 5px 0 5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.all i{
+    font-size: 20px;
+}
+
+.all p{
+    font-weight: bold;
+}
