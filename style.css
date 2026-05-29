@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box ;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+}
+.nav-logo{
+    height: 50px;
+    width: 114px;
+    padding: 5px 0 0 5px;
+    margin-left: 5px;
+    
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+.logo{
+    margin-top: 10px;
+    height: 80%;
+    width: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url("atoz.webp");
+    
+}
+
+.add-icon{
+    margin-top: 15px;
+}
+
+.address{
+    width: 90.63px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.deliver{
+    font-size: 12px;
+    color: #cccccc;
+    width: 52.63px;
+    height: 16px;
+}
+
+.india{
+    font-size: 14px;
+}
+
+.nav-search{
+    display: flex;
+    align-items: center;
+}
+.select{
+    height: 36px;
+    width: 50px;
+    border-color: white;
+}
+.input{
+    height: 30px;
+    width: 338.52px;
+    border-color: white;
+}
+.search-icon{
+    background-color: #EDA740;
+    height: 35px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #EDA740;
+}
