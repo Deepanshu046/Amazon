@@ -168,7 +168,70 @@
     height: 80vh;
     width: 100vw;
     background-size: contain;
-    background-image: url("background1.jpg");
+    background-image: linear-gradient(to bottom , rgba(255 , 255 ,255 , 0) 30% ,rgba(255 , 255 ,255 , 1) 70%) , url("background1.jpg");
     background-repeat:no-repeat;
+    background-position: top;
 
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100vh;
+    background:linear-gradient(to bottom , transparent , #b5b8b7);
+    margin-top: -300px;
+}
+
+.box{
+    height: 330px;
+    width: 22.5%;
+    background-color: white;
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+    padding: 10px 0 0 10px;
+}
+
+.box div{
+    height: 250px;
+    width: 307px;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.sign{
+    width: 100vw;
+    height: 189px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.signup{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(196, 196, 196);
+
+}
+
+.signup div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    position: relative;
+    top:40px;
+}
+
+.signup div button{
+    width: 182px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 25px;
+    border: none;
+    background-color: #FFD814;
 }
