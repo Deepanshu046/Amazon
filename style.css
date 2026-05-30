@@ -165,7 +165,7 @@
 
 
 .hero-section{
-    height: 80vh;
+    height: 650px;
     width: 100vw;
     background-size: contain;
     background-image: linear-gradient(to bottom , rgba(255 , 255 ,255 , 0) 30% ,rgba(255 , 255 ,255 , 1) 70%) , url("background1.jpg");
